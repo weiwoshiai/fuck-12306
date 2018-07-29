@@ -24,8 +24,8 @@ class Oder(object):
             '_json_att': "",
             'bed_level_order_num': '000000000000000000000000000000',
             'cancel_flag': 2,
-            'oldPassengerStr': '张玉超,1,500231199801161854,3_',
-            'passengerTicketStr': '3,0,3,张玉超,1,500231199801161854,18375805259,N',
+            'oldPassengerStr': '',
+            'passengerTicketStr': '',
             'randCode': "",
             'REPEAT_SUBMIT_TOKEN': REPEAT_SUBMIT_TOKEN,
             'tour_flag': 'dc',
@@ -40,7 +40,7 @@ class Oder(object):
             'seatType': self.seatType,
             'stationTrainCode': self.ticket_info[3],
             'toStationTelecode': self.ticket_info[5],
-            'train_date': 'Thu+Jul+26+2018+00:00:00+GMT+0800',
+            'train_date': '',
             'train_location': self.ticket_info[15],
             'train_no': self.ticket_info[2],
             }
@@ -111,7 +111,7 @@ class Oder(object):
             exit(5)
         print(confirm_response.text)
         query_response = self.s.post(
-            url=re.sub(pattern='1531896755588', string=self.query_url, repl=str(time.time() * 1000)),
+            url=re.sub(pattern='1531896755588', string=self.query_url, repl=str(int(time.time() * 1000))),
             headers=self.headers, proxies=self.proxies)
         """排队获取订单信息"""
         if query_response.status_code != 200:
@@ -119,6 +119,10 @@ class Oder(object):
             print(query_response.text)
             exit(5)
         print(query_response.json()['data'])
+        print(self.result_data)
+        print(self.confirm_data)
+        print(self.oder_data)
+        print(self.submit_data)
         while not query_response.json()['data']['orderId']:
             self.query_url = r'https://kyfw.12306.cn/otn/confirmPassenger/queryOrderWaitTime?random=%s&' \
                              r'tourFlag=dc&_json_att=&REPEAT_SUBMIT_TOKEN=%s' % (str(int(time.time() * 1000)),

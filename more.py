@@ -27,9 +27,9 @@ Time = '2018-07-28'  # input('输入时间：年-月-日')
 start = '北京'  # input('输入起点：')
 end = '天津'  # input('输入终点：')
 seatType = '硬卧'  # input('输入座位类型：商务特等座，一等座，二等座，软卧，硬卧，硬座')
-name = '张玉超'  # input('输入乘车人姓名：多个乘客用","隔开')
-username = ['17693212350', 'zyc_786504673']
-password = ['fan000000', 'zyc_786504673']
+name = '***'  # input('输入乘车人姓名：多个乘客用","隔开')
+username = ['***', '***']
+password = ['***', '***']
 waite_time = '0'  # input('输入抢票时间：年,月,日,时,分,秒。任意时间输入0')
 info = [train, kind, Time, start, end, seatType, name, username, password, waite_time]
 begin = main.Begin(train=train, kind=kind, Time=Time, start=start, end=end, seatType=seatType, name=name,
