@@ -1,0 +1,30 @@
+1531965864860	geckodriver	INFO	geckodriver 0.20.1
+1531965864868	geckodriver	INFO	Listening on 127.0.0.1:54743
+1531965867644	mozrunner::runner	INFO	Running command: "E:\\software\\firfox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\唯颜是爱\\AppData\\Local\\Temp\\rust_mozprofile.zuixZ1voce7o"
+1531965869873	Marionette	INFO	Listening on port 54751
+1531965870772	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7772, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_chann[Child 17016, Chrome_ChildThreael_win.cc, line 346
+d] WARNING: pipe error: 109[Child 7: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17016, Chrome_ChildThread] WARNING: pip[Parent 16848, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12908, Chrome_ChildThread] WARNING:*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[GPU 10632, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1531980788859	geckodriver	INFO	geckodriver 0.20.1
+1531980788870	geckodriver	INFO	Listening on 127.0.0.1:60818
+1531980791830	mozrunner::runner	INFO	Running command: "E:\\software\\firfox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\唯颜是爱\\AppData\\Local\\Temp\\rust_mozprofile.fPxv2Y8Qu4vt"
+1531980793247	Marionette	INFO	Listening on port 60826
+1531980793340	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15196, Chrome_[Child 11480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11480, Chrome_ChildThread] WARNING: [Parent 15696, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 860, Chrome_Child[GPU 10588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/b
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+src/chrome/common/ipc_channel_win.cc, line 346
+[Child 18100, Chrome_Chil[Child 14428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14428, Chrome_ChildThread] WA[GPU 18236, Chrome_ChildThread] WARNING: 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

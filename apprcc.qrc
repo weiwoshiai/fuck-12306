@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>back_ground.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>back_ground.png</file>
+    <file>back_ground.png</file>
+    <file>按钮.png</file>
+    <file>背景图.png</file>
+    <file>不显示密码.png</file>
+    <file>名字.png</file>
+    <file>抢了么_0000s_0000s_0002_矩形-1-拷贝-3.png</file>
+    <file>抢了么_0000s_0000s_0003_矩形-1-拷贝.png</file>
+    <file>抢了么_0002_抢票-.png</file>
+    <file>输入框.png</file>
+    <file>图标.ico</file>
+    <file>显示密码.png</file>
+    <file>效果图.png</file>
+    <file>中心头像.png</file>
+  </qresource>
+</RCC>
