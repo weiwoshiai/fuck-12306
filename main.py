@@ -55,9 +55,9 @@ if __name__ == '__main__':
     start = '吉林'  # input('输入起点：')
     end = '长春'  # input('输入终点：')
     seatType = '二等座'  # input('输入座位类型：商务特等座，一等座，二等座，软卧，硬卧，硬座')
-    name = '张玉超'  # input('输入乘车人姓名：多个乘客用","隔开')
-    username = 'zyc_786504673'
-    password = 'zyc_786504673'
+    name = '魏逸凡'  # input('输入乘车人姓名：多个乘客用","隔开')
+    username = '17693212350'
+    password = 'fan000000'
     waite_time = '0'  # input('输入抢票时间：年,月,日,时,分,秒。任意时间输入0')
     if waite_time != '0':
         waite_time = waite_time.split(',')
